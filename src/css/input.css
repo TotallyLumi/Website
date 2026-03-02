@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10
+         shadow-xl shadow-pink-500/10 rounded-2xl;
+}
