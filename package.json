@@ -1,31 +1,26 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "My website for totallylumi.top",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "parcel src/html/index.html",
-    "build": "parcel build --no-source-maps --dist-dir dist --public-url '.' src/html/index.html",
-    "build:css": "tailwindcss -i ./src/css/input.css -o ./src/css/style.css --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TotallyLumi/Website.git"
-  },
-  "author": "totallylumi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TotallyLumi/Website/issues"
-  },
-  "homepage": "https://github.com/TotallyLumi/Website#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.4.27",
-    "parcel": "^2.16.4",
-    "parcel-reporter-static-files-copy": "^1.5.3",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^5.9.3"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "animate.css": "^4.1.1"
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
