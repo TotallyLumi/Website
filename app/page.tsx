@@ -11,8 +11,8 @@ export default function Home() {
     <br/>
     <h1 className="text-xl md:text-2xl">Contact</h1>
     <p>These are the different ways, you can contact me for any reasons.</p>
-    <p>Discord: <a className="hover:text-zinc-400 transition" href="https://discord.com/users/1257791775523868735">@totallylumi</a> | Alt Account: <a className="hover:text-zinc-400 transition" href="https://discord.com/users/1504915933452570634">@xexblooms</a></p>
-    <p>Email: <a className="hover:text-zinc-400 transition" href="mailto:totallylumi@proton.me">@totallylumi@proton.me</a></p>
-    <p>GitHub: <a className="hover:text-zinc-400 transition" href="https://github.com/totallylumi">@TotallyLumi</a></p>
+    <p>Discord: <a className="hover:text-blue-300 transition" href="https://discord.com/users/1257791775523868735">@totallylumi</a> | Alt Account: <a className="hover:text-blue-300 transition" href="https://discord.com/users/1504915933452570634">@xexblooms</a></p>
+    <p>Email: <a className="hover:text-blue-300 transition" href="mailto:totallylumi@proton.me">@totallylumi@proton.me</a></p>
+    <p>GitHub: <a className="hover:text-blue-300 transition" href="https://github.com/totallylumi">@TotallyLumi</a></p>
   </>
 }
